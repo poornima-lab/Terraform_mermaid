@@ -1,0 +1,16 @@
+{
+    "name": "terraform_mermaid",
+    "version": "1.0.0",
+    "description": "Generate Mermaid diagrams with images",
+    "main": "index.js",
+    "scripts": {
+      "start": "npx http-server -p 8080",
+      "inject": "node injectDiagram.js"
+    },
+    "dependencies": {
+      "@mermaid-js/mermaid-cli": "^8.14.0",
+      "http-server": "^0.12.3",
+      "puppeteer": "^5.5.0"
+    }
+  }
+  
